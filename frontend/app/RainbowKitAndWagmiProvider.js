@@ -7,13 +7,13 @@ import {
   lightTheme,
 } from "@rainbow-me/rainbowkit";
 import { WagmiProvider } from "wagmi";
-import { hardhat, sepolia, baseSepolia } from "wagmi/chains";
+import { sepolia, baseSepolia } from "wagmi/chains";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 
 const config = getDefaultConfig({
   appName: "EasyDefi",
   projectId: process.env.NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID,
-  chains: [hardhat, sepolia, baseSepolia],
+  chains: [sepolia, baseSepolia],
   ssr: true,
 });
 
