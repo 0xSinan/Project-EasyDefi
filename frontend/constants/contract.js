@@ -1,4 +1,4 @@
-export const contractAddress = "0xA425dAB08979ECcF127D169e488aAB0b2E6724d0";
+export const contractAddress = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS;
 export const contractAbi = [
   {
     type: "constructor",
@@ -589,12 +589,12 @@ export const contractAbi = [
 
 export const TOKENS = {
   ALYRA: {
-    address: "0xC5033278664209a38B9542121cD32FDA2F7C4550",
+    address: process.env.NEXT_PUBLIC_ALYRA_ADDRESS,
     symbol: "ALY",
     logo: "/images/tokens/alyra-logo.png",
   },
   LIQUID_ALYRA: {
-    address: "0x97A98c45335B6eafD89448d5Be29328062B9B6A7",
+    address: process.env.NEXT_PUBLIC_LIQUID_ALYRA_ADDRESS,
     symbol: "sALY",
     logo: "/images/tokens/salyra-logo.png",
   },
