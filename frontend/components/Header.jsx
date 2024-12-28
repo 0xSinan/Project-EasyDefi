@@ -57,6 +57,24 @@ const Header = () => {
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
+            <NavigationMenuItem>
+              <NavigationMenuLink
+                className={cn(
+                  "text-lg font-semibold hover:text-brand-pink-dark opacity-50 cursor-not-allowed"
+                )}
+              >
+                Earn to Learn
+              </NavigationMenuLink>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              <NavigationMenuLink
+                className={cn(
+                  "text-lg font-semibold hover:text-brand-pink-dark opacity-50 cursor-not-allowed"
+                )}
+              >
+                Partners
+              </NavigationMenuLink>
+            </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
         <div className="ml-auto">
